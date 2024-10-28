@@ -28,11 +28,6 @@ else:
     Iterable = collections.abc.Iterable
 
 
-# 2020.4.19 Chaoyang
-# add new augmentation class *HEDJitter* for HED color space perturbation.
-# add new random rotation class *AutoRandomRotation* only for 0, 90,180,270 rotation.
-# delete Scale class because it is inapplicable now.
-# 2020.4.20 Chaoyang
 # add annotation for class *RandomAffine*, how to use it. line 1040 -- 1046
 # add new augmentation class *RandomGaussBlur* for gaussian blurring.
 # add new augmentation class *RandomAffineCV2* for affine transformation by cv2, which can \
